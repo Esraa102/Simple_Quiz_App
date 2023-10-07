@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(183,29,253,1) 39%, rgba(178,69,252,1) 63%, rgba(224,11,110,1) 100%, rgba(252,176,69,1) 100%);
+}
+.quiz-app {
+    width:60%;
+    margin:30px auto;
+    background-color:#000;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.8);
+}
+@media(max-width:769px) {
+    .quiz-app {
+        width:80%;
+    }
+}
+.quiz-app h2 {
+    font-size:25px;
+    margin: 15px 0;
+    color:rgba(183,29,253,1);
+}
+.question-container {
+    margin-top:20px;
+    padding:10px;
+    border:1px solid rgba(183,29,253,1);
+    border-radius:5px;
+}
+.question-container .quiz-text {
+    padding:15px 10px;
+    background-color:#252525;;
+    margin-bottom:15px;
+    border-radius:4px;
+    
+   
+}
+.quiz-answers.banned {
+    cursor: no-drop;
+    opacity:0.3;
+  
+}
+.quiz-answers.banned .answer {
+    pointer-events:none;
+}
+.quiz-answers .answer {
+    margin: 10px 0;
+    padding:10px;
+    border:1px solid rgba(183,29,253,1);
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:15px;
+}
+.quiz-answers .answer:hover {
+    background-color:rgba(183,29,253,1);
+    color:#000;
+}
+.next {
+    display:block;
+    width:fit-content;
+    padding:10px 15px;
+    margin:15px auto  0  auto;
+    background-color:rgba(183,29,253,1);
+    border-radius:10px;
+    cursor:pointer;
+    border:1px solid rgba(183,29,253,1);
+    transition:0.3s;
+}
+.next:hover {
+    background-color:#000;
+    color:rgba(183,29,253,1);
+}
+.quiz-answers .answer.right {
+  background-color:green;
+  border-color:green;
+}
+.quiz-answers .answer.wrong{
+    background-color:red;
+  border-color:red;
+}
+.result {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 25px;
+    display:none;
+}
+.result p {
+    font-size:25px;
+    margin:15px 0;
+    color:rgba(183,29,253,1);
+}
+.result span.right-number {
+    color:rgba(183,29,253,1);
+    font-weight:bold;
+}
+span.start-again {
+     
+    padding: 10px;
+    transition:0.3s;
+    background-color:  rgba(224,11,110,1);
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 15px auto 0 auto;
+    transform:scale(0.9);
+    display:none;
+}
+span.start-again:hover {
+    transform:scale(1);
+}

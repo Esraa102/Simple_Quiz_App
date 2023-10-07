@@ -1,0 +1,95 @@
+[
+    {
+        "Question":"What Is The Smallest Country In the World?",
+        "Answer_1": "America",
+        "Answer_2": "Vatican City",
+        "Answer_3": "China",
+        "Answer_4": "France",
+        "right_answer":"Vatican City"
+    },
+    {
+        "Question":"What Is The  biggest Country In the World?",
+        "Answer_1": "North America",
+        "Answer_2": "Japan",
+        "Answer_3": "China",
+        "Answer_4": "Russia",
+        "right_answer":"Russia"
+    },
+    {
+        "Question":"What Is The biggest animal In the World?",
+        "Answer_1": "Tiger",
+        "Answer_2": "Elephant",
+        "Answer_3": "Lion",
+        "Answer_4": "Blue Whale",
+        "right_answer":"Blue Whale"
+    },
+    {
+        "Question":" Define the list types in HTML",
+        "Answer_1": "&lt;ol&gt;",
+        "Answer_2": "&lt;ul&gt;",
+        "Answer_3": "&lt;dl&gt;",
+        "Answer_4": "All Of The Above",
+        "right_answer":"All Of The Above"
+    } 
+    ,
+    {
+        "Question":" What country has the highest life expectancy?",
+        "Answer_1": "Hong Kong",
+        "Answer_2": "California",
+        "Answer_3": "Egypt",
+        "Answer_4": "Dubi",
+        "right_answer":"Hong Kong"
+    } 
+    ,
+    {
+        "Question":"What is the most common surname in the United States",
+        "Answer_1": "Holmes",
+        "Answer_2": "Maria",
+        "Answer_3": "Smith",
+        "Answer_4": "Jhon",
+        "right_answer":"Smith"
+    },
+    {
+        "Question":"What year was the United Nations established?",
+        "Answer_1": "1955",
+        "Answer_2": "1945",
+        "Answer_3": "1935",
+        "Answer_4": "1925",
+        "right_answer":"1945"
+    } ,
+    {
+        "Question":"How many minutes are in a full week?",
+        "Answer_1": "10,100",
+        "Answer_2": "11,080",
+        "Answer_3": "10,080",
+        "Answer_4": "10,000",
+        "right_answer":"10,080"
+    } 
+    ,
+    {
+        "Question":"What company was originally called 'Cadabra'?",
+        "Answer_1": "Facebook",
+        "Answer_2": "Apple",
+        "Answer_3": "Tesla",
+        "Answer_4": "Amazon",
+        "right_answer":"Amazon"
+    } ,
+    {
+        "Question":"Aureolin is a shade of what color?",
+        "Answer_1": "Red",
+        "Answer_2": "Black",
+        "Answer_3": "Pink",
+        "Answer_4": "Yellow",
+        "right_answer":"Yellow"
+    }  ,
+    {
+        "Question":"How many ghosts chase Pac-Man at the start of each game?",
+        "Answer_1": "5",
+        "Answer_2": "4",
+        "Answer_3": "10",
+        "Answer_4": "2",
+        "right_answer":"4"
+    }
+    
+
+]
